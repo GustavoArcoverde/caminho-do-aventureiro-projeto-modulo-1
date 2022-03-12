@@ -57,4 +57,16 @@ h1{
     padding: 15px 15px;
     border: 1px solid gold;
     text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    color: gold;
+    border-radius: 15px;
+    transition-duration: 0.4s;
+}
+
+.link>a:hover{
+    background-color: gold;
+    color: black;
+    font-size: 45px;
+    text-shadow: none;
 }
