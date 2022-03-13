@@ -1,0 +1,21 @@
+@media (max-width: 769px){
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .image1{
+        display: none;
+    }
+}
+
+@media (max-width: 426px){
+    .link>a{
+        width: 90%;
+    }
+}
+
+@media (max-width: 321px){
+    .info>div>img{
+        display: none;
+    }
+}
