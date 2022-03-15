@@ -2,5 +2,11 @@
     section{
         display: flex;
         flex-direction: column;
+        padding: 0;
+    }
+
+    section>div{
+        width: 100%;
+        margin-top: 70px;
     }
 }
