@@ -1,0 +1,6 @@
+@media(max-width: 769px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
