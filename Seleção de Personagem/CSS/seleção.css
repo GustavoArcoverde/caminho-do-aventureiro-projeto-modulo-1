@@ -81,6 +81,7 @@ div>a{
     color: var(--font-color);
     font-size: 30px;
     transition-duration: 0.4s;
+    border-radius: 10px;
 }
 
 a:hover{
