@@ -1,0 +1,17 @@
+@media (max-width: 769px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    article{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 426px){
+    nav>a{
+        width: 90%;
+    }
+}
