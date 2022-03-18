@@ -1,0 +1,33 @@
+@media (max-width: 769px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    article{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    figure{
+        width: 80%;
+    }
+
+    figure>img{ 
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 426px){
+    nav>a{
+        width: 90%;
+    }
+
+    article>h3{
+        font-size: 46px;
+    }
+
+    figure>img{
+        display: none;
+    }
+}
