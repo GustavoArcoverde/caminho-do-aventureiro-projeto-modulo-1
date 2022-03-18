@@ -16,11 +16,12 @@ section{
 }
 
 article{
-    width: 40%;
+    width: 50%;
 }
 
 article>p{
     text-indent: 15px;
+    line-height: 1.3em;
 }
 
 figure{

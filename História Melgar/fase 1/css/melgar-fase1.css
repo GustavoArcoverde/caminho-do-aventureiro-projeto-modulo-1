@@ -21,6 +21,7 @@ article{
 
 article>p{
     text-indent: 15px;
+    line-height: 1.3em;
 }
 
 figure{
