@@ -6,7 +6,7 @@ function resposta() {
 
     while(tentativas > contador){
 
-        if(resposta == "2" || resposta == "2. Direita") {
+        if(resposta == "2" || resposta == "2. Se esconder embaixo da mesa.") {
         window.location.href = "../fase 4/melgar-fase4.html";
         break
 
