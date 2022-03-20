@@ -12,7 +12,9 @@ function resposta() {
 
         }
         alert("Você toma a iniciativa de enfrentá-los. Mas, você não dura muito contra as flechas dos assassinos.")
-        resposta = prompt("Tente novamente.")
+        resposta = prompt(`Tente novamente. Você irá:
+1. Enfrentá-los!
+2. Se esconder embaixo da mesa.`)
         contador++
 }
 }
