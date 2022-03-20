@@ -26,4 +26,8 @@
     article>h3{
         font-size: 46px;
     }
+
+    figure{
+        display: none;
+    }
 }
