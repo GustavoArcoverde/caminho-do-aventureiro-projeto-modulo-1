@@ -10,11 +10,17 @@ function resposta() {
         window.location.href = "../fase 4/melgar-fase4.html";
         break
 
-        }
+        }else if(resposta == "1" || resposta == "1. Enfrentá-los"){
         alert("Você toma a iniciativa de enfrentá-los. Mas, você não dura muito contra as flechas dos assassinos.")
         resposta = prompt(`Tente novamente. Você irá:
 1. Enfrentá-los!
 2. Se esconder embaixo da mesa.`)
         contador++
+    }else{
+        alert("Resposta inválida. Tente novamente.")
+        resposta = prompt(`Tente novamente. Você irá:
+1. Enfrentá-los!
+2. Se esconder embaixo da mesa.`)
+    }
 }
 }

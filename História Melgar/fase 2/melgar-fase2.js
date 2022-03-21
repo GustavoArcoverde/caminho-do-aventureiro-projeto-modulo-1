@@ -10,11 +10,17 @@ function resposta() {
         window.location.href = "../fase 3/melgar-fase3.html";
         break
 
-        }
+        }else if (resposta == "1" || resposta == "1. Esquerda."){
         alert("Você chega a uma sala completamente vazia, estranhamente limpa, mas vazia. De repente, a porta se fecha e tranca quando você entra e um gás começa a ser expelido pelos cantos da sala. Em minutos, você já não consegue mais respirar.")
         resposta = prompt(`Tente novamente. Você irá para:
 1. Esquerda.
 2. Direita.`)
         contador++
+    }else{
+        alert("Resposta inválida. Tente novamente.")
+        resposta = prompt(`Tente novamente. Você irá para:
+1. Esquerda.
+2. Direita.`)
+    }
 }
 }
