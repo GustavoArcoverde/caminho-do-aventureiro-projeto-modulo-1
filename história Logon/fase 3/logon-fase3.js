@@ -10,11 +10,17 @@ function resposta() {
         window.location.href = "../fase 4/logon-fase4.html";
         break
 
-        }
+        }else if(resposta == "1" || resposta == "1. Correr para o mais longe que puder."){
         alert("Você tenta correr, mas o som te alcança sem muita dificuldade. Você então entra em um tipo de transe e sua vista escurece. Você nunca mais acorda.")
         resposta = prompt(`Tente novamente. Você vai:
 1. Correr para o mais longe que puder.
 2. Tampar os ouvidos.`)
         contador++
+    }else{
+        alert("Resposta inválida. Tente novamente.")
+        resposta = prompt(`Tente novamente. Você vai:
+1. Correr para o mais longe que puder.
+2. Tampar os ouvidos.`)
+    }
 }
 }
