@@ -16,6 +16,15 @@ function resposta() {
 1. Emboscar o ogro.
 2. Você se esconde e reza para seu deus mais uma vez`)
             contador++
+        } else if (resposta == null) {
+            var stop = confirm("Deseja cancelar?")
+            if (stop == true) {
+                break
+            } else {
+                resposta = prompt(`O que você faz?:
+1. Emboscar o ogro.
+2. Você se esconde e reza para seu deus mais uma vez`)
+            }
         } else {
             alert("Resposta inválida. Tente novamente.")
             resposta = prompt(`Tente novamente. Você vai:

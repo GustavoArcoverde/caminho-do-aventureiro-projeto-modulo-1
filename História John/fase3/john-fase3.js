@@ -17,6 +17,15 @@ function resposta() {
 1. Você fica e luta contra o segundo ogro.
 2. Você tenta atrair o ogro para longe do garoto.`)
             contador++
+        } else if (resposta == null) {
+            var stop = confirm("Deseja cancelar?")
+            if (stop == true) {
+                break
+            } else {
+                resposta = prompt(`O que você vai fazer?
+1. Você fica e luta contra o segundo ogro.
+2. Você tenta atrair o ogro para longe do garoto`)
+            }
         } else {
             alert("Resposta inválida. Tente novamente.")
             resposta = prompt(`Tente novamente. O que você vai fazer?

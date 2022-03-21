@@ -16,7 +16,16 @@ function resposta() {
 1. Seguir o som.
 2. Seguir o rastro.`)
             contador++
-        } else {
+        } else if (resposta == null) {
+            var stop = confirm("Deseja cancelar?")
+            if (stop == true) {
+                break
+            } else {
+                resposta = prompt(`Você irá:
+1. Seguir o som.
+2. Seguir o rastro`)
+            }
+        }else {
             alert("Resposta Inválida. Tente novamente.")
             resposta = prompt(`Tente novamente. Você irá:
 1. Seguir o som.

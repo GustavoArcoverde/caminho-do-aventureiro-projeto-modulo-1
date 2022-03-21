@@ -16,7 +16,16 @@ function resposta() {
 1. Puxar sua espada e pedir ajuda a seu deus.
 2. Tentar libertar o garoto furtivamente.`)
             contador++
-        } else {
+        } else if (resposta == null) {
+            var stop = confirm("Deseja cancelar?")
+            if (stop == true) {
+                break
+            } else {
+                resposta = prompt(`Você irá:
+1. Puxar sua espada e pedir ajuda a seu deus.
+2. Tentar libertar o garoto furtivamente.`)
+            }
+        }else {
             alert("Resposta inválida. Tente novamente.")
             resposta = prompt(`Tente novamente. Você vai:
 1. Puxar sua espada e pedir ajuda a seu deus.
