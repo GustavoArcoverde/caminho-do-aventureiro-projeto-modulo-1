@@ -16,6 +16,15 @@ function resposta() {
 1. Encostar na árvore.
 2. Observar a distância.`)
         contador++
+    } else if (resposta == null) {
+        var stop = confirm("Deseja cancelar?")
+        if (stop == true) {
+            break
+        } else {
+            resposta = prompt(`Você vai:
+1. Encostar na árvore.
+2. Observar a distância`)
+        }
     }else{
         alert("Resposta inválida. Tente novamente.")
         resposta = prompt(`Tente novamente. Você pretende:

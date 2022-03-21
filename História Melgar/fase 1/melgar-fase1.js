@@ -21,7 +21,7 @@ function resposta() {
             if(stop == true){
                 break
             }else{
-            resposta = prompt(`Tente novamente. Você vai: 
+            resposta = prompt(`Você vai: 
 1. Ir atrás desse traste! 
 2. Ficar bebendo e comprar outro alaúde depois.`)
             }

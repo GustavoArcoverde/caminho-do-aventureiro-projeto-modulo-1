@@ -21,9 +21,9 @@ function resposta() {
             if (stop == true) {
                 break
             } else {
-                resposta = prompt(`Tente novamente. Você vai: 
-1. Ir atrás desse traste! 
-2. Ficar bebendo e comprar outro alaúde depois.`)
+                resposta = prompt(`Você irá:
+1. Procurar uma oportunidade para fugir e tentar destruir o covil com magia.
+2. Acender a dinamite e explodir tudo HAHAHA!`)
             }
         } else {
             alert("Resposta inválida. Tente novamente.")

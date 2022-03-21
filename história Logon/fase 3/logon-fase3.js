@@ -16,6 +16,15 @@ function resposta() {
 1. Correr para o mais longe que puder.
 2. Tampar os ouvidos.`)
         contador++
+    } else if (resposta == null) {
+        var stop = confirm("Deseja cancelar?")
+        if (stop == true) {
+            break
+        } else {
+            resposta = prompt(`Você vai:
+1. Correr para o mais longe que puder.
+2. Tampar os ouvidos.`)
+        }
     }else{
         alert("Resposta inválida. Tente novamente.")
         resposta = prompt(`Tente novamente. Você vai:

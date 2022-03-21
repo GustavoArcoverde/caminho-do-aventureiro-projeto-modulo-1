@@ -16,6 +16,15 @@ function resposta() {
 1. Invocar as forças da natureza ao seu auxílio.
 2. Tentar atacá-la com seu cajado, na tentativa de atordoá-la.`)
         contador++
+    } else if (resposta == null) {
+        var stop = confirm("Deseja cancelar?")
+        if (stop == true) {
+            break
+        } else {
+            resposta = prompt(`Você vai:
+1. Invocar as forças da natureza ao seu auxílio.
+2. Tentar atacá-la com seu cajado, na tentativa de atordoá-la.`)
+        }
     }else{
         alert("Resposta inválida. Tente novamente")
         resposta = prompt(`Tente novamente. Você irá:

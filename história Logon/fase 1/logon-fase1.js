@@ -16,6 +16,15 @@ function resposta() {
 1. Ajudar o garoto.
 2. Não se envolver`)
             contador++
+        } else if (resposta == null) {
+            var stop = confirm("Deseja cancelar?")
+            if (stop == true) {
+                break
+            } else {
+                resposta = prompt(`Você vai:
+1. Ajudar o garoto.
+2. Não se envolver`)
+            }
         } else {
             alert("Resposta inválida. Tente novamente.")
             resposta = prompt(`Tente novamente. Você vai:
