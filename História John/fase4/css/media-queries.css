@@ -9,13 +9,13 @@
         margin-bottom: 20px;
     }
 
-    nav>a{
+    nav>button{
         width: 60%
     }
 }
 
 @media (max-width: 426px){
-    nav>a{
+    nav>button{
         width: 90%;
     }
 }
