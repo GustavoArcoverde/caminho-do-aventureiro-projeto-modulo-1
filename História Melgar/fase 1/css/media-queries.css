@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 426px){
-    nav>a{
+    nav>button{
         width: 90%;
     }
 }

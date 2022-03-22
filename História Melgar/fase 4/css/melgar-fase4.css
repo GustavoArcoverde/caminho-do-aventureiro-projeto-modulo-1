@@ -31,21 +31,23 @@ nav{
     margin-top: 50px;
 }
 
-nav>a{
-    width: 50%;
+nav>button{
+    width: 40%;
     padding: 15px 15px;
     border: 1px solid var(--font-color);
     text-align: center;
-    text-decoration: none;
+    font-family: 'Tangerine', cursive;
     font-size: 40px;
     color: var(--font-color);
+    background-color: var(--background);
     border-radius: 15px;
     transition-duration: 0.4s;
 }
 
-nav>a:hover{
+nav>button:hover{
     background-color: var(--font-color);
     color: var(--background);
     font-size: 45px;
     text-shadow: none;
+    cursor: pointer;
 }
